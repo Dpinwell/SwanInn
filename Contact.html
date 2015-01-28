@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="/css/Main.css">
+<link rel="stylesheet" type="text/css" href="/css/toastr.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.theme.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+<script type="text/javascript" src="/js/toastr.js"></script>
+
+</head>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(52.071637, -2.696374);
+    var mapOptions = {
+      zoom: 13,
+      mapTypeId: google.maps.MapTypeId.HYBRID,
+      center: myLatlng
+    }
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    var trafficLayer = new google.maps.TrafficLayer();
+    trafficLayer.setMap(map);
+
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'The Swan Inn'
+    });
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+});
+
+</script>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="TheSwanInnHereford.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Events</a></li>
+        <li class="active"> <a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="borderStyle">
+  <h1 class="mainHead">Contact Us </h1>
+
+  <div class="swanPic" id="map-canvas">
+  </div>
+  <div class="container mapbtn">
+    <button type="button" class="btn btn-default" id="googleNav">Get me there</button>
+    <input type="text" class="form-control" id="userLocation" placeholder="your Postcode">
+  </div>
+  <br>
+
+  <div class="container">
+    <a href="http://www.tripadvisor.co.uk/Restaurant_Review-g186302-d4766953-Reviews-Swan_inn-Hereford_Herefordshire_England.html" target="_blank"> <img src="/images/trip.jpg" alt="Trip Advisor" style="width:135px;height:30px"></a>
+
+    <a href="http://m.facebook.com/profile.php?id=1402794829999505" target="_blank"><img src="/images/facebook.png" alt="Find us on facebook" style="width:75px;height:30px"></a> 
+    <p>Address</p>
+    171 Aylestone Hill, <br>
+    Hereford <br>
+    Hr1 1jj, <br>
+    England <br>
+    <br>
+    To book a table or any other enquires please call us <br> 
+    01432 275234
+ </div>
+</body>
+</html>

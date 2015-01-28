@@ -1,7 +1,0 @@
-sdfga
-t
-
-
-
-quit
-
