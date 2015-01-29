@@ -8,6 +8,7 @@
 
 html{
     font-family: oldEnglish;
+        max-height: 50%;
 }
 
 
@@ -43,16 +44,41 @@ body {
 
 }
 
+.mainIntro.Menu{
+    font-family: oldEnglish;
+    font-size: 14px;
+    float:right;
+}
+
+.menuList ul li{
+  display: inline-block;
+  font-family: oldEnglish;
+  font-size: 20px;
+  margin-left: 20%;
+
+}
+
+.menuItems, .menuItems1, .menuItems2{
+  display: none;
+  font-family: oldEnglish;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+p{
+  text-indent: 15px;
+}
+
+
 .borderStyle{
   background-color: #FFFFCC;
     border: 10px solid;
     margin-top: 5%;
-    margin-bottom: 10%;
     margin-right: 20%;
     margin-left: 20%;
     border-image: url(/images/ivy.jpg) 20 20 round;
-    height: 675px;
-
+    height: 675px
 }
 
 .navbar{
@@ -76,12 +102,11 @@ body {
 
 .container{
   font-family: oldEnglish;
-  font-size: 18px;  
-  font-weight: bold;
+  font-size: 16px;  
   text-align: justify;
   margin-right: auto;
   margin-left: 18%;
-  height: 190px;
+  height: 160px;
   width: 60%;
   float: left;
 }
@@ -116,3 +141,4 @@ body {
   margin-left: 20%;
   position: absolute;
 }
+
