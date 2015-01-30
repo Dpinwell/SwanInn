@@ -53,21 +53,20 @@ body {
 .menuList ul li{
   display: inline-block;
   font-family: oldEnglish;
-  font-size: 20px;
+  font-size: 24px;
   margin-left: 20%;
 
 }
 
-.menuItems, .menuItems1, .menuItems2{
+.menuItems{
   display: none;
   font-family: oldEnglish;
   font-size: 16px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 p{
-  text-indent: 15px;
+  text-indent: 14px;
 }
 
 

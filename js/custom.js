@@ -17,10 +17,10 @@ $( document ).ready(function() {
   		}
   	})
 
-    $(".menuOption1").click(function(){   
+    $(".menuOption1").click(function(){ 
+    	var divcount =  $('.menuItems').size(); 
+    	alert (divcount); 
     	$(".menuItems").fadeIn().animate({'margin-top':'4%'});
-    	$(".menuItems1").fadeIn().animate({'margin-top':'4%'});
-    	$(".menuItems2").fadeIn().animate({'margin-top':'4%'});
     });
     
 });
