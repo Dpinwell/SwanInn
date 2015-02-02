@@ -1,0 +1,10 @@
+    <div class="menuContainer">
+      <div class="menuItems"> Soup .............................................&#163;3.25 <p> Chef's choice of the day served with freshly baked baguette </p>
+      </div> 
+      <div class="menuItems"> Battered Butterflt Prawns ........................&#163;4.50 <p>Served on a bed of salad with sweet chilli dip</p>
+      </div> 
+      <div class="menuItems"> Battered Mushrooms ........................&#163;4.25<p>Served with salad garnish and garlic mayonnaise dip</p>
+      </div>
+      <div class="menuItems">Crispy Combo to share ........................&#163;4.25<p>Garlic bread, onion rings, breaded mushrooms, potato shells, served with salsa and garlic dips and a salad garnish</p>
+      </div>
+    </div>

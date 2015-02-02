@@ -18,9 +18,13 @@ $( document ).ready(function() {
   	})
 
     $(".menuOption1").click(function(){ 
-    	var divcount =  $('.menuItems').size(); 
-    	alert (divcount); 
-    	$(".menuItems").fadeIn().animate({'margin-top':'4%'});
+    	$("#menuText").load("/files/Starters.txt", function(responseTxt, statusTxt, xhr){
+            if(statusTxt == "success")
+                $(".menuItems").fadeIn().animate({'margin-top':'4%'});
+            if(statusTxt == "error")
+                alert("Error: file not found" + xhr.status + ": " + xhr.statusText);
+        });
+    	
     });
     
 });
