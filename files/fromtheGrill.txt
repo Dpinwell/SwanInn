@@ -1,0 +1,17 @@
+    <div class="menuContainer">
+      <div class="menuItems">8 Oz Sirloin Steak.............................................&#163;13.95 <p></p>
+      </div> 
+      <div class="menuItems"> 10 Oz Rump Steak .............................................&#163;13.95 <p></p>
+      </div> 
+      <div class="menuItems"> 18 Oz Mixed Grill.............................................&#163;16.95 <p>Steak, gammon, lamb, pork sausage and egg</p>
+      </div> 
+
+	<div class="menuItems">
+<p>All cooked to your liking, served with onion rings, mushrooms and grills tomato</p>
+	
+		Pepper Sauce ............................&#163;1.95&#32;
+		Silton Sauce ............................&#163;1.95
+		<p>Diane Sauce ............................&#163;1.95</p>
+	</div>
+	
+    </div>

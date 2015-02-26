@@ -3,6 +3,12 @@ $( document ).ready(function() {
         interval: 2000
     })
 
+    $('#menuText').slimScroll({
+        height: '490px',
+        color: '#000000'
+    });
+
+
     $('#googleNav').click(function(url){
     	var userLocation = $('#userLocation').val();
     	if (userLocation == "" || userLocation == null){
@@ -17,14 +23,42 @@ $( document ).ready(function() {
   		}
   	})
 
-    $(".menuOption1").click(function(){ 
-    	$("#menuText").load("/files/Starters.txt", function(responseTxt, statusTxt, xhr){
-            if(statusTxt == "success")
-                $(".menuItems").fadeIn().animate({'margin-top':'4%'});
-            if(statusTxt == "error")
-                alert("Error: file not found" + xhr.status + ": " + xhr.statusText);
-        });
-    	
+    $('.menuOption').on('click', function(){ 
+        var menuType = $(this).attr('data-menuitemId');
+        var subType = $(this).attr("class");
+        if(subType == "menuOption sub"){
+        }else{
+          $(".menuItems").hide();
+          $(".menusubList ul li").hide().css('margin-top','0%'); 
+        }
+        gettext(menuType);
     });
-    
+
+  function gettext(menuType){
+    if (menuType == "Mains") {
+      $(".menusubList ul li").css('display','inline-block').fadeIn().animate({'margin-top':'2%'}); 
+    }else{
+      $("#menuText").load("/files/"+menuType+".txt", function(responseTxt, statusTxt, xhr){
+        if(statusTxt == "success")
+          $(".menuItems").show().fadeIn().animate({'margin-top':'3%'}); 
+            $(".menuItems").on('mouseover', function() {
+                var optionId = $(this).attr('id');
+                $('#'+optionId).tooltipster({
+                  content: $('<span><img src="/images/'+optionId+'.jpg"/></span>')
+                });
+              });
+        if(statusTxt == "error")
+            toastr.error("Error: Unable to load Menu Options " + xhr.status + ": " + xhr.statusText);
+      });
+    }
+  
+  }
+
+
+
+  //tooltips(optionId);
+
+
+
 });
+

@@ -1,0 +1,7 @@
+    <div class="menuContainer">
+      <div class="menuItems"> Traditional Steak and Ale Pie.............................................&#163;10.50 <p> Home prepared Tender chunks of steal cooked in Banks ale and served in a short crust pastry </p>
+      </div> 
+      <div class="menuItems"> Freshly cooked four egg Omelette........................&#163;7.95 <p>choose from ham, mushroom or cheese or any combination of the three</p>
+      </div> 
+    </div>
+      

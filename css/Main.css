@@ -58,8 +58,27 @@ body {
 
 }
 
-.menuItems{
+.menusubList ul li{
+  display: none;
+  position: relative;
+  font-family: oldEnglish;
+  font-size: 16px;
+  margin-left: 35px;
+  margin-right: 15px;
+}
 
+
+.menuOption:hover{
+  cursor: pointer;
+  background-color: #FFFF88;
+}
+
+.menuItems:hover{
+  cursor: pointer;
+  background-color: #FFFFAA;  
+}
+
+.menuItems{
   font-family: oldEnglish;
   font-size: 16px;
   text-align: center; 
@@ -69,15 +88,24 @@ p{
   text-indent: 14px;
 }
 
+.menuText{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menuContainer{
+  max-height: 490px;
+}
 
 .borderStyle{
   background-color: #FFFFCC;
-    border: 10px solid;
-    margin-top: 5%;
-    margin-right: 20%;
-    margin-left: 20%;
-    border-image: url(/images/ivy.jpg) 20 20 round;
-    height: 675px
+  border: 10px solid;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-image: url(/images/ivy.jpg) 20 20 round;
+  max-height: 675px;
+  height: 675px
 }
 
 .navbar{
@@ -132,8 +160,6 @@ p{
   height:200px; 
 }
 
-
-
 #maincarousel{
   display: block;
   margin-right: 35%;
@@ -141,3 +167,14 @@ p{
   position: absolute;
 }
 
+.fotorama {
+  height: 25%;
+  width: 25%;
+
+}
+
+.fotorama__img{
+  height: 25%;
+  width: 25%;
+  
+}
