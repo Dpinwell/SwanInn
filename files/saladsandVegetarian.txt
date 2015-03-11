@@ -1,18 +1,18 @@
     <div class="menuContainer">
-      <div class="menuItems"> Farmers Platter .............................................&#163;7.95 <p> Cooked meats served with salad and chips </p>
+      <div class="menuItems"><div class="menuText"> Farmers Platter </div> <p> Cooked meats served with salad and chips </p>
       </div> 
-      <div class="menuItems"> Cheese Ploughman's........................&#163;7.75 <p>served with pickle and hot baguette</p>
+      <div class="menuItems"><div class="menuText"> Cheese Ploughman's </div> <p>served with pickle and hot baguette</p>
       </div> 
-      <div class="menuItems"> Hot Salmon Salad.............................................&#163;9.45 <p>served with new potatoes</p>
+      <div class="menuItems"><div class="menuText"> Hot Salmon Salad </div> <p>served with new potatoes</p>
       </div> 
-      <div class="menuItems">Quiche of the day.............................................&#163;7.95 <p>served with salad and choice of potatoes</p>
+      <div class="menuItems"><div class="menuText">Quiche of the day </div> <p>served with salad and choice of potatoes</p>
 	</div>
-      <div class="menuItems">Homemade Vegetables Chilli.............................................&#163;8.75 <p>served with rice or chips, Tortilla Chips</p>
+      <div class="menuItems"><div class="menuText">Homemade Vegetables Chilli </div> <p>served with rice or chips, Tortilla Chips</p>
 	</div>
-      <div class="menuItems">Roasted Vegetable & Wensleydale Bake.............................................&#163;9.45 <p></p>
+      <div class="menuItems"><div class="menuText">Roasted Vegetable & Wensleydale Bake <div> <p></p>
 	</div>
 
-      <div class="menuItems">Four Mushroom Stroganoff.............................................&#163;9.45 <p>with rice or chips</p>
+      <div class="menuItems"><div class="menuText">Four Mushroom Stroganoff </div> <p>with rice or chips</p>
 	</div>
  
     </div>

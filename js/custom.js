@@ -3,8 +3,11 @@ $( document ).ready(function() {
         interval: 2000
     })
 
+
+    var tester = $('.borderStyle').height() * 0.70 + "px"
+
     $('#menuText').slimScroll({
-        height: '490px',
+        height: tester,
         color: '#000000'
     });
 
@@ -55,10 +58,23 @@ $( document ).ready(function() {
   }
 
 
-
-  //tooltips(optionId);
-
-
-
+});
+$(window).resize(function() {
+     changesize();    
 });
 
+function changesize(){
+    var changeHeight = $('.borderStyle').height() * 0.5 + "px"
+    $('#menuText').height(changeHeight)
+}
+
+$(window).resize(function() {
+    var changeHeight = $('.borderStyle').height() * 0.25 + "px"
+    //var changeWidth = $('.borderStyle').width() * 0.10 + "px"    
+    $('.item').height(changeHeight)
+    $('#maincarousel').height(changeHeight) 
+    $('.maindisplay').height(changeHeight)
+    //$('#maincarousel').height(changeWidth) 
+    //$('.maindisplay').height(changeWidth)
+
+});

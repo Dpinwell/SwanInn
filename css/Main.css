@@ -1,6 +1,7 @@
 /* Toggle Styles */
 
 
+
 @font-face {
     font-family: oldEnglish;
     src: url(/fonts/BLKCHCRY.TTF);
@@ -8,7 +9,7 @@
 
 html{
     font-family: oldEnglish;
-        max-height: 50%;
+    height: 100% !important;
 }
 
 
@@ -27,6 +28,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 89% !important;
+
 }
 
 .mainHead{
@@ -37,11 +40,10 @@ body {
 .mainIntro{
     font-family: oldEnglish;
     text-align: justify;
-    font-size: 18px;
+    font-size: 2.5vh;
     font-weight: bold;
     margin-right: 25%;
     margin-left: 25%;
-
 }
 
 .mainIntro.Menu{
@@ -101,11 +103,12 @@ p{
   background-color: #FFFFCC;
   border: 10px solid;
   margin-top: 5%;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
   border-image: url(/images/ivy.jpg) 20 20 round;
-  max-height: 675px;
-  height: 675px
+  /*max-height: 100%;*/
+  height: 95%;
+  width: 70%;
 }
 
 .navbar{
@@ -129,11 +132,11 @@ p{
 
 .container{
   font-family: oldEnglish;
-  font-size: 16px;  
+  font-size: 100%;  
   text-align: justify;
   margin-right: auto;
   margin-left: 18%;
-  height: 160px;
+  height: 40%;
   width: 60%;
   float: left;
 }
@@ -156,25 +159,45 @@ p{
 }
 
 .carousel-inner > .item > img{ 
-  width:300px; 
+  width:100%; 
   height:200px; 
+  display: inline;
+  height:25vh;
 }
 
 #maincarousel{
   display: block;
-  margin-right: 35%;
-  margin-left: 20%;
-  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+
+
+  /*position: absolute;*/
 }
 
-.fotorama {
-  height: 25%;
-  width: 25%;
 
+.fotorama{
+  margin-right: 22%;
+  margin-left: 22%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #FFFFBB;
 }
 
 .fotorama__img{
-  height: 25%;
-  width: 25%;
-  
+  height: 500px;
+  width: 500px;
+}
+
+.maindisplay{   
+  margin: 0.5%;
+  font-family: oldEnglish;
+  font-size: 3vh;
+  width:44.5vh;
+  height: 31%;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px black solid;
+  display: inline-block;
 }

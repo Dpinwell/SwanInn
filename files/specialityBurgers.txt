@@ -1,11 +1,11 @@
     <div class="menuContainer">
-      <div class="menuItems"> The Classic Burger .............................................&#163;8.25 <p> with cheese and fried Onions </p>
+      <div class="menuItems"><div class="menuText"> The Classic Burger </div> <p> with cheese and fried Onions </p>
       </div> 
-      <div class="menuItems"> The chicken Burger........................&#163;8.25 <p>with coleslaw</p>
+      <div class="menuItems"><div class="menuText"> The chicken Burger </div> <p>with coleslaw</p>
       </div> 
-      <div class="menuItems"> The Full English.............................................&#163;8.75 <p> Bacon, Fried Egg and Mushrooms </p>
+      <div class="menuItems"><div class="menuText"> The Full English </div> <p> Bacon, Fried Egg and Mushrooms </p>
       </div> 
-      <div class="menuItems"> The American BBQ.............................................&#163;8.75 <p> Pulled Pork, BBQ Sauce and Onion Rings </p>
+      <div class="menuItems"><div class="menuText"> The American BBQ </div> <p> Pulled Pork, BBQ Sauce and Onion Rings </p>
 <br>
 <p>Make it a 1/2 Pounder for only &#163;2.50 more</p>
       </div> 

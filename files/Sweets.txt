@@ -1,10 +1,10 @@
     <div class="menuContainer">
-      <div class="menuItems" id="cheesecake"> CHEESECAKE .............................................&#163;3.25 <p> Fudge Sauce </p>
+      <div class="menuItems" id="cheesecake"><div class="menuText"> CHEESECAKE </div> <p> Fudge Sauce </p>
       </div> 
-      <div class="menuItems" id="icecream"> Ice Cream ........................&#163;4.50 <p>General Ice Cream</p>
+      <div class="menuItems" id="icecream"><div class="menuText"> Ice Cream </div> <p>General Ice Cream</p>
       </div> 
-      <div class="menuItems" id="breadpudding"> bread and butter pudding ........................&#163;4.25<p>pudding</p>
+      <div class="menuItems" id="breadpudding"><div class="menuText"> bread and butter pudding </div><p>pudding</p>
       </div>
-      <div class="menuItems" id="fruit">fruit ........................&#163;4.25<p>apples</p>
+      <div class="menuItems" id="fruit"><div class="menuText">fruit</div> <p>apples</p>
       </div>
     </div>
